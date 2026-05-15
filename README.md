@@ -1,11 +1,24 @@
-# Exercicios em C
+# C Estudos
 
-Repositorio com exercicios simples em C para praticar:
+Repositório com exercícios em C, organizados por tema.
 
-- entrada e saida
-- condicionais
-- repeticao
-- strings
-- arquivos
+## Conteúdo
+- Fundamentos
+- Condicionais
+- Laços de repetição
+- Strings
+- Funções
+- Vetores e matrizes
+- Arquivos
+- Ponteiros
+- Desafios
 
-Cada pasta contem exemplos separados por assunto.
+## Como compilar
+Exemplo com GCC
+-> gcc 01-fundamentos/entrada-saida.c -o saida.exe
+
+## Como executar
+-> ./saida
+
+## Objetivo
+Praticar lógica, sintaxe da linguagem C e organização de código.
