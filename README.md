@@ -13,11 +13,11 @@ Repositório com exercícios em C, organizados por tema.
 - Ponteiros
 - Desafios
 
-## Como compilar
+## Como compilar no terminal
 Exemplo com GCC
 -> gcc 01-fundamentos/entrada-saida.c -o saida.exe
 
-## Como executar
+## Como executar no terminal
 -> ./saida
 
 ## Objetivo
