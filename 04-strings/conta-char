@@ -1,14 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <conio.h>
 
 int main()
 {
-  int cont = 0;
-  printf("Digite uma frase: ");
-  while(getche() != '\r')
-    cont++;
-  printf("\nO numero de caracteres e %d \n", cont);
-  
-  return 0;
+    char frase[200];
+    int cont = 0;
+    int i = 0;
+
+    printf("Digite uma frase: ");
+    fgets(frase, sizeof(frase), stdin);
+
+    while (frase[i] != '\0' && frase[i] != '\n') {
+        cont++;
+        i++;
+    }
+
+    printf("A frase tem %d caracteres.\n", cont);
+
+    return 0;
 }
