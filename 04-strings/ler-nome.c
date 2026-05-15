@@ -4,11 +4,13 @@
 int main()
 {
   char nome[100];
+  
   printf("Qual e o seu nome? ");
-  scanf("%s", &nome);
-
+  fgets(nome, sizeof(nome), stdin);
+  nome[strcspn(nome, "\n")] = '\0';
+  
   system("cls");
-  printf("Oi, %s\n", nome);
+  printf("Oi! %s", nome);
   
   return 0;
 }
