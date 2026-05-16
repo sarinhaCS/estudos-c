@@ -1,0 +1,26 @@
+//Objetivo: Receber um valor em segundos, e converter em horas, minutos e segundos
+#include <stdio.h>
+
+void conversao(int seg)
+{
+    int hora, min, segundo, aux;
+
+    hora = seg / 3600;
+    aux = seg % 3600;
+    min = aux / 60;
+    segundo = aux % 60;
+
+    printf("Horas: %d \tMinutos: %d \tSegundos: %d", hora, min, segundo);
+}
+
+int main()
+{
+    int seg;
+
+    printf("Digite a quantidade de segundos: ");
+    scanf("%d", &seg);
+
+    conversao(seg);
+
+    return 0;
+}
