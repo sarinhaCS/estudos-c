@@ -3,7 +3,7 @@
 
 int main()
 {
-  char texto[100]; //Vetor de caracteres para guardar o que o usuário digitar
+  char texto[100]; //Vetor de caracteres para guardar no buffer que o usuário digitar
   
   printf("Digite uma frase: ");
   
