@@ -4,6 +4,8 @@ int main()
 {
     char nome[100];
     int num1, num2, soma;
+    //scanf: Lê dados formatados. Para strings com %s, lê apenas até o primeiro espaço.
+    //Muito usado para números e valores formatados. Para inteiros, funciona bem com %d.
 
     printf("Qual e o seu nome? ");
     scanf("%99s", nome);
