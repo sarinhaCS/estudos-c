@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
@@ -7,7 +6,7 @@ int main()
     int num1, num2, soma;
 
     printf("Qual e o seu nome? ");
-    scanf("%s", &nome);
+    scanf("%99s", nome);
 
     printf("Digite o primeiro numero para soma: ");
     scanf("%d", &num1);
@@ -16,7 +15,6 @@ int main()
 
     soma = num1 + num2;
 
-    system("cls");
     printf("Oi, %s. A soma e %d", nome, soma);
 
     return 0;
