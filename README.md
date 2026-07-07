@@ -1,5 +1,5 @@
 # Estudos em C
-Repositório mostra minha evolução na linguagem C, organizados por tema.
+Repositório mostra minha evolução na linguagem C, com tópicos organizados por tema.
 
 ## Conteúdo
 - Fundamentos
