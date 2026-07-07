@@ -1,6 +1,5 @@
-# C Estudos
-
-Repositório com exercícios em C, organizados por tema.
+# Estudos em C
+Repositório mostra minha evolução na linguagem C, organizados por tema.
 
 ## Conteúdo
 - Fundamentos
